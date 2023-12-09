@@ -54,6 +54,6 @@ sequenceDiagram
     server-->>browser: [{ "content": "**test**", "date": "2023-12-9" }, ... ]
     deactivate server
 
-    Note left of browser: this tehcnically would be at the end, but showing the added change
+    Note right of browser: this tehcnically would be at the end, but showing the added change
 
 ```
