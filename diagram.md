@@ -25,7 +25,7 @@ sequenceDiagram
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate server
 
-    Note left of browser: We load in the website
+    Note right of browser: We load in the website
 
     browser->>server: POST [note:"test"]
     activate server
